@@ -12,10 +12,5 @@ pipeline{
           sh'mvn clean pakage'
 	}
      }
-	 stage('print'){
-	step{
-	  sh'echo "hello world"'
-         }
-      }
-   }
+	    }
 }
