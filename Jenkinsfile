@@ -14,7 +14,7 @@ pipeline{
      }
 	 stage('print'){
 	step{
-	  sh'echo "hello world"
+	  sh'echo "hello world"'
          }
       }
    }
