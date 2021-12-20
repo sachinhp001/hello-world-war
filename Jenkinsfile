@@ -7,12 +7,7 @@ pipeline{
               }
         }
 	
-	 stage('build') {
-            steps {	
-	sh 'mvn clean package'	
-              }
-        }
-	 stage('print') {
+	 	 stage('print') {
             steps {	
 	sh 'echo "hello world"'	
               }
